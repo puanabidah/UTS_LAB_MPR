@@ -11,4 +11,9 @@
     <color name="bottom_nav_background">#FFFFFF</color>
     <color name="botton_nav_item">#676868</color>
     <color name="bottom_nav_selected_item">#5584AC</color>
+    <color name="blue1">#87A2FB</color>
+
+    <color name="lavender">#8692f7</color>
+
+
 </resources>

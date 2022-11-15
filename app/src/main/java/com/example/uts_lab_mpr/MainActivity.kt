@@ -1,5 +1,6 @@
 package com.example.uts_lab_mpr
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -39,7 +40,8 @@ class MainActivity : AppCompatActivity() {
                 return true
             }
             R.id.menu2 -> {
-                Toast.makeText(this, "Not Available yet", Toast.LENGTH_SHORT ).show()
+                val intent = Intent(applicationContext, LoginActivity::class.java)
+                startActivity(intent)
                 return true
             }
             else -> return true
