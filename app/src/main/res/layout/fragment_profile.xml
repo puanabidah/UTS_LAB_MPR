@@ -60,7 +60,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/edittext_email"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="11dp">
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -68,6 +68,7 @@
                     android:drawablePadding="10dp"
                     android:text="antoni@gmail.com"/>
             </com.google.android.material.textfield.TextInputLayout>
+
 
         </LinearLayout>
 
